@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-weight: 300;
+  transition: all 0.5s;
+}
+
+a {
+  color: #0087fd;
+  text-decoration: none;
+}
+a:hover {
+  color: #0d67b6;
+}
+
+body {
+  font-family: "Kanit", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1b1b23;
+  color: white;
+}
+
+button {
+  font-family: "Kanit";
+  font-weight: 400;
+}

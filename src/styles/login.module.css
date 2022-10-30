@@ -1,0 +1,87 @@
+.section {
+  height: -webkit-fill-available;
+  padding: 4em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+  margin: 2em;
+  border-radius: 1em;
+  border: 1px solid #49494f50;
+  position: absolute;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  background-color: rgba(17, 25, 40, 0.25);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  animation: fadeInAnimation ease 1s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+
+.sectionBG {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/planes.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.title > h2 {
+  font-size: 60px;
+}
+
+form {
+  width: 40em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #49494f;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.inputContainer:hover,
+.inputContainer:focus-within {
+  border-color: white;
+}
+
+input {
+  all: unset;
+  font-size: 1.5rem;
+  height: 1.5rem;
+}
+
+button {
+  background-color: #0087fd;
+  border: 0;
+  width: 100%;
+  border-radius: 0.5rem;
+  height: 2.75em;
+  font-family: "Kanit";
+  font-size: 1.5rem;
+  line-height: 1rem;
+  text-align: left;
+  padding: 0 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d67b6;
+}
